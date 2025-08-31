@@ -1,28 +1,46 @@
 class TennisGame {
   constructor() {
-    this.p1 = 0;
-    this.p2 = 0;
+    this.p1Points = 0;
+    this.p2Points = 0;
   }
 
   player1Scores() {
-    this.p1++;
+    this.p1Points++;
   }
 
   player2Scores() {
-    this.p2++;
+    this.p2Points++;
   }
 
   getScore() {
-    if (this.p1 === 0 && this.p2 === 0) return 'Love-Love';
-    if (this.p1 === 1 && this.p2 === 0) return '15-Love';
-    if (this.p1 === 1 && this.p2 === 1) return '15-15';
-    if (this.p1 === 2 && this.p2 === 1) return '30-15';
-    if (this.p1 === 2 && this.p2 === 2) return '30-30';
-    if (this.p1 === 3 && this.p2 === 2) return '40-30';
-    if (this.p1 === 3 && this.p2 === 3) return 'Deuce';
-    if (this.p1 === 4 && this.p2 === 3) return 'Advantage Player 1';
-    if (this.p1 === 5 && this.p2 ===3) return 'Game for Player 1';
-    return 'Unknown';
+    const p1 = this.p1Points;
+    const p2 = this.p2Points;
+
+    if (p1 >= 3 && p2 >= 3 && p1 === p2) {
+      return 'Deuce';
+    }
+
+    
+    if (p1 >= 4 && p1 === p2 + 1) {
+      return 'Advantage Player 1';
+    }
+    if (p2 >= 4 && p2 === p1 + 1) {
+      return 'Advantage Player 2';
+    }
+
+    if (p1 >= 4 && p1 >= p2 + 2) {
+      return 'Game for Player 1';
+    }
+    if (p2 >= 4 && p2 >= p1 + 2) {
+      return 'Game for Player 2';
+    }
+
+    return `${this.translate(p1)}-${this.translate(p2)}`;
+  }
+
+  translate(points) {
+    const labels = ['Love', '15', '30', '40'];
+    return labels[points] || 'Error';
   }
 }
 export default TennisGame;

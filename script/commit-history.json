@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cfaa5d79cb50c69ef6d95d7741b847bda5b2e6fa",
     "author": "Caleb",
     "commit": {
       "date": "2025-08-31T21:42:20.000Z",
       "message": "Feat: se forzo que salga el resultado de Game for Player 1",
-      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+      "url": "https://github.com/CalebBav234/tennis-score/commit/cfaa5d79cb50c69ef6d95d7741b847bda5b2e6fa"
     },
     "stats": {
       "total": 13,
@@ -242,6 +242,25 @@
       "date": "2025-08-31"
     },
     "coverage": 95.83,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-31T21:46:58.000Z",
+      "message": "Refact: se hizo la implementacion correcta y logica para el marcador de tennis",
+      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 32,
+      "deletions": 14,
+      "date": "2025-08-31"
+    },
+    "coverage": 90,
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
