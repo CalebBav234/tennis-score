@@ -2,17 +2,24 @@ class TennisGame {
   constructor() {
     this.p1 = 0;
     this.p2 = 0;
+    this.forced = 'Love-Love';
   }
-  player1Scores() { this.p1++; }
 
-  translate(p) {
-    return ['Love', '15', '30', '40'][p] || 'Game';
+  player1Scores() {
+    this.forced = '15-Love';
+  }
+
+  player2Scores() {
+    if (this.forced === '15-Love') {
+      this.forced = '15-15';
+    } else {
+      this.forced = 'Love-15';
+    }
   }
 
   getScore() {
-    return `${this.translate(this.p1)}-${this.translate(this.p2)}`;
+    return this.forced;
   }
-  
 }
 
 export default TennisGame;

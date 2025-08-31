@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0014d0bad78a4318c0359f97102b53b542367660",
     "author": "Caleb",
     "commit": {
       "date": "2025-08-31T19:05:05.000Z",
       "message": "se implemento de manera correcta que aparezca el resultado de 15-Love",
-      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+      "url": "https://github.com/CalebBav234/tennis-score/commit/0014d0bad78a4318c0359f97102b53b542367660"
     },
     "stats": {
       "total": 12,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-31T21:02:45.000Z",
+      "message": "Feat: se forzo que salga el resultado de 15-15",
+      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 18,
+      "deletions": 5,
+      "date": "2025-08-31"
+    },
+    "coverage": 88.89,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

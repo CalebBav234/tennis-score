@@ -8,3 +8,9 @@ test('Player 1 anota una vez → 15-Love', () => {
   game.player1Scores();
   expect(game.getScore()).toBe('15-Love');
 });
+test('Ambos jugadores anotan una vez → 15-15', () => {
+  const game = new TennisGame();
+  game.player1Scores();
+  game.player2Scores();
+  expect(game.getScore()).toBe('15-15');
+});
