@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b9cfb7e8a1fd1c8dc863e801f12878b6c0ec27bb",
     "author": "Caleb",
     "commit": {
       "date": "2025-08-31T21:23:55.000Z",
       "message": "Feat: se forzo que salga el resultado de Deuce (40-40)",
-      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+      "url": "https://github.com/CalebBav234/tennis-score/commit/b9cfb7e8a1fd1c8dc863e801f12878b6c0ec27bb"
     },
     "stats": {
       "total": 11,
@@ -205,6 +205,25 @@
     },
     "coverage": 95,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-31T21:34:46.000Z",
+      "message": "Feat: se forzo que salga el resultado Advantage Player 1",
+      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2025-08-31"
+    },
+    "coverage": 95.45,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
