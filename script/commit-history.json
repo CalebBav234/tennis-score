@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bd91374d0cf1b176bf0c0d0229c8e9b333e63faa",
     "author": "Caleb",
     "commit": {
       "date": "2025-08-31T21:04:03.000Z",
       "message": "Feat: se hizo de manera correcta que salga el resultado de 15-15",
-      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+      "url": "https://github.com/CalebBav234/tennis-score/commit/bd91374d0cf1b176bf0c0d0229c8e9b333e63faa"
     },
     "stats": {
       "total": 15,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-31T21:09:41.000Z",
+      "message": "Feat: se forzo que salga el resultado de 30-15",
+      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 14,
+      "deletions": 6,
+      "date": "2025-08-31"
+    },
+    "coverage": 83.33,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

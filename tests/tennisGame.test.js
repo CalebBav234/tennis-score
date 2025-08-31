@@ -14,3 +14,10 @@ test('Ambos jugadores anotan una vez → 15-15', () => {
   game.player2Scores();
   expect(game.getScore()).toBe('15-15');
 });
+test('Player 1 anota dos veces, Player 2 una vez → 30-15', () => {
+  const game = new TennisGame();
+  game.player1Scores();
+  game.player1Scores(); 
+  game.player2Scores();
+  expect(game.getScore()).toBe('30-15');
+});

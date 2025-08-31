@@ -12,13 +12,14 @@ class TennisGame {
     this.p2++;
   }
 
-  translate(p) {
-    return ['Love', '15', '30', '40'][p] || 'Game';
-  }
-
   getScore() {
-    return `${this.translate(this.p1)}-${this.translate(this.p2)}`;
+    if (this.p1 === 0 && this.p2 === 0) return 'Love-Love';
+    if (this.p1 === 1 && this.p2 === 0) return '15-Love';
+    if (this.p1 === 2 && this.p2 === 0) return '30-Love';
+    if (this.p1 === 0 && this.p2 === 1) return 'Love-15';
+    if (this.p1 === 2 && this.p2 === 1) return '30-15';
+    if (this.p1 === 1 && this.p2 === 1) return '15-15';
+    return 'Unknown';
   }
 }
-
 export default TennisGame;
