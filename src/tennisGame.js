@@ -19,6 +19,7 @@ class TennisGame {
     if (this.p1 === 2 && this.p2 === 1) return '30-15';
     if (this.p1 === 2 && this.p2 === 2) return '30-30';
     if (this.p1 === 3 && this.p2 === 2) return '40-30';
+    if (this.p1 === 3 && this.p2 === 3) return 'Deuce';
     return 'Unknown';
   }
 }
