@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3d7d9aeed8fd0edfca7e48a41a1c96200aba9d4d",
     "author": "Caleb",
     "commit": {
       "date": "2025-08-31T13:59:19.000Z",
       "message": "Refact: Se creo un constructor dentro de la clase TennisGame para los 2 jugadores",
-      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+      "url": "https://github.com/CalebBav234/tennis-score/commit/3d7d9aeed8fd0edfca7e48a41a1c96200aba9d4d"
     },
     "stats": {
       "total": 4,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-31T14:14:53.000Z",
+      "message": "Feat: se forzo el resultado de 15-Love",
+      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2025-08-31"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
