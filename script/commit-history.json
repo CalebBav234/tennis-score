@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "14738a0e69a61ddb3c63af13103d3d2c4b6b8e5a",
     "author": "Caleb",
     "commit": {
       "date": "2025-08-31T21:34:46.000Z",
       "message": "Feat: se forzo que salga el resultado Advantage Player 1",
-      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+      "url": "https://github.com/CalebBav234/tennis-score/commit/14738a0e69a61ddb3c63af13103d3d2c4b6b8e5a"
     },
     "stats": {
       "total": 12,
@@ -224,6 +224,25 @@
     },
     "coverage": 95.45,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-31T21:42:20.000Z",
+      "message": "Feat: se forzo que salga el resultado de Game for Player 1",
+      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2025-08-31"
+    },
+    "coverage": 95.83,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

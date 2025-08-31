@@ -59,3 +59,15 @@ test('Player 1 y Player 2 anotan tres veces, luego Player 1 anota → Advantage 
   game.player1Scores(); 
   expect(game.getScore()).toBe('Advantage Player 1');
 });
+test('Player 1 anota cinco veces, Player 2 tres veces → Game for Player 1', () => {
+  const game = new TennisGame();
+  game.player1Scores();
+  game.player1Scores(); 
+  game.player1Scores(); 
+  game.player2Scores(); 
+  game.player2Scores();
+  game.player2Scores();  
+  game.player1Scores(); 
+  game.player1Scores();
+  expect(game.getScore()).toBe('Game for Player 1');
+});
