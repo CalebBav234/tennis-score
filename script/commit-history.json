@@ -266,17 +266,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9f4a7eb3805bd31c910c7b8d87e3165360a1bd27",
     "author": "Caleb",
     "commit": {
       "date": "2025-08-31T22:28:58.000Z",
       "message": "Feat: se implemento por completo la aplicacion web",
-      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+      "url": "https://github.com/CalebBav234/tennis-score/commit/9f4a7eb3805bd31c910c7b8d87e3165360a1bd27"
     },
     "stats": {
       "total": 133,
       "additions": 75,
       "deletions": 58,
+      "date": "2025-08-31"
+    },
+    "coverage": 76.19,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-31T22:44:06.000Z",
+      "message": "fix: se arreglo el error con cypress.config.js",
+      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 0,
+      "deletions": 1,
       "date": "2025-08-31"
     },
     "coverage": 76.19,

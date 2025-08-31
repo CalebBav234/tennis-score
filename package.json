@@ -31,7 +31,6 @@
   "dependencies": {
     "parcel-jest-base": "file:"
   },
-  "main": "cypress.config.js",
   "directories": {
     "test": "tests"
   },
