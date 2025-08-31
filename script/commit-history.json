@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1c4eccddb7eb0458995601a153daf14561057fc9",
     "author": "Caleb",
     "commit": {
       "date": "2025-08-31T21:46:58.000Z",
       "message": "Refact: se hizo la implementacion correcta y logica para el marcador de tennis",
-      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+      "url": "https://github.com/CalebBav234/tennis-score/commit/1c4eccddb7eb0458995601a153daf14561057fc9"
     },
     "stats": {
       "total": 46,
@@ -261,6 +261,25 @@
       "date": "2025-08-31"
     },
     "coverage": 90,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-31T22:28:58.000Z",
+      "message": "Feat: se implemento por completo la aplicacion web",
+      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+    },
+    "stats": {
+      "total": 133,
+      "additions": 75,
+      "deletions": 58,
+      "date": "2025-08-31"
+    },
+    "coverage": 76.19,
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
