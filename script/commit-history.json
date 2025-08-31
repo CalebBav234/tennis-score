@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-31T13:57:21.000Z",
+      "message": "Feat: se hizo que el marcador retorne Love-Love y se creo la clase TennisGame",
+      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+    },
+    "stats": {
+      "total": 2019,
+      "additions": 987,
+      "deletions": 1032,
+      "date": "2025-08-31"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
