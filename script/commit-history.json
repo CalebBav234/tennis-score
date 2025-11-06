@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "17c6d2aa2cb6cf9825cda5971f561ce4d62b80d4",
     "author": "Caleb",
     "commit": {
       "date": "2025-08-31T22:44:06.000Z",
       "message": "fix: se arreglo el error con cypress.config.js",
-      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+      "url": "https://github.com/CalebBav234/tennis-score/commit/17c6d2aa2cb6cf9825cda5971f561ce4d62b80d4"
     },
     "stats": {
       "total": 1,
@@ -300,6 +300,25 @@
     },
     "coverage": 76.19,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marlon Tomas Marzo Fernandez",
+    "commit": {
+      "date": "2025-11-06T15:57:52.000Z",
+      "message": "feat: initial TennisGame implementation with love-love score",
+      "url": "https://github.com/CalebBav234/tennis-score/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2025-11-06"
+    },
+    "coverage": 76.19,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
